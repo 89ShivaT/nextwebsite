@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f1e3;
+  padding: 1rem;
+}
+
+.header .logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  /* border: 1px solid red; */
+  height: auto;
+}
+.header h1 {
+  height: 100%;
+  font-size: 4rem;
+  color: #78e08f;
+}
+
+.header .menu {
+  display: flex;
+  justify-content: end;
+  width: 60%;
+}
+.header .menu ul {
+  display: flex;
+  align-items: center;
+}
+.header .menu ul li {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #4a69bd;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: all 0.4s linear;
+}
+
+.header .menu ul li:hover {
+  color: #e55039;
+}
+.header .menu ul li span {
+  padding: 0.3rem;
+  margin-left: 0.3rem;
+}
+span .bi-google-play {
+  color: red;
+}
+span .bi-windows {
+  color: #82ccdd;
+}
+span .bi-phone {
+  color: #67d68f;
+}
+span .bi-code-slash {
+  color: #000;
+}
+span .bi-apple {
+  color: rgb(0, 0, 0);
+}
